@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(105, 63, 11);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        .form{
+            background-color: rgb(249, 248, 248);
+            width: 300px;
+            border-radius: 20px;
+            padding: 10px 10px 20px 10px;
+            height: 300px;
+        }
+        .title{
+            text-align: center;
+        }
+        .container{
+            width: 250px;
+            padding: 12px;
+            text-align: center;
+            margin: 10px;
+        }
+        .input{
+            margin-bottom: 8px;
+            border-radius: 8px;
+            width: 220px;
+            height: 20px;
+            padding-left: 8px;
+           
+        }
+        .btn{
+            margin-bottom: 8px 0px;
+            border-radius: 12px;
+            width: 220px;
+            height: 30px;
+            padding-left: 8px;
+            margin-top: 8px;
+            
+            box-shadow: 5px;
+            text-decoration: none;
+            background-color: rgb(168, 131, 83);
+            
+        }
+        .me{
+            margin-left: 2px;
+            font-size: 12px;
+        }
+        .forgot{
+            margin-left: 34px;
+            font-size: 12px;
+        }
+                .remember{
+            margin-left: 5px;
+            font-size: 12px;
+        }
+        .dnt{
+            font-size: 12px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <div class="title">
+            <h2>Welcome,</h2>
+            <p><b>please login to your account</b></p>
+        </div>
+        <div class="container">
+            <input type="text" placeholder="Username or email" class="input"/>
+            <input type="password" placeholder="Password" class="input" />
+            <label class="me"><input type="checkbox" />Remember me</label>
+            <a href="#" class="forgot">Forgot Password?</a>
+            <button class="btn">Sign in</button>
+            <p class="dnt">Don't have an account? <a href="#" class="remember"><b>Register here</b></a></p>
+        </div>
+    </form>
+</body>
+</html>
